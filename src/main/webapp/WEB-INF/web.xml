@@ -6,7 +6,7 @@
 
     <context-param>
         <param-name>resteasy.resources</param-name>
-        <param-value>com.cnblogs.yjmyzz.ProductService</param-value>
+        <param-value>com.cnblogs.yjmyzz.service.ProductService</param-value>
     </context-param>
 
     <context-param>
@@ -16,7 +16,7 @@
 
     <context-param>
         <param-name>resteasy.providers</param-name>
-        <param-value>com.cnblogs.yjmyzz.FastJsonProviderGBK,com.cnblogs.yjmyzz.RestExceptionHandler</param-value>
+        <param-value>com.cnblogs.yjmyzz.fastjson.FastJsonProviderGBK,com.cnblogs.yjmyzz.handler.RestExceptionHandler,com.cnblogs.yjmyzz.handler.RestExceptionHandler,com.cnblogs.yjmyzz.filter.PreMatchingFilter,com.cnblogs.yjmyzz.filter.CustomResponseFilter</param-value>
     </context-param>
 
     <listener>

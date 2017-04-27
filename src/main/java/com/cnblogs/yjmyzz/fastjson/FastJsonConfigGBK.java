@@ -1,4 +1,4 @@
-package com.cnblogs.yjmyzz;
+package com.cnblogs.yjmyzz.fastjson;
 
 import com.alibaba.fastjson.serializer.SerializerFeature;
 import com.alibaba.fastjson.support.config.FastJsonConfig;

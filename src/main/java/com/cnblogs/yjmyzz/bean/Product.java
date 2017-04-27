@@ -1,4 +1,4 @@
-package com.cnblogs.yjmyzz;
+package com.cnblogs.yjmyzz.bean;
 
 import com.alibaba.fastjson.annotation.JSONField;
 
@@ -9,7 +9,15 @@ public class Product implements Serializable {
 
     String name;
     int qty;
+    int id;
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     @JSONField(format = "yyyy年MM月dd日")
     Date createTime;
@@ -43,9 +51,8 @@ public class Product implements Serializable {
         return "Product{" +
                 "name='" + name + '\'' +
                 ", qty=" + qty +
+                ", id=" + id +
                 ", createTime=" + createTime +
                 '}';
     }
-
-
 }

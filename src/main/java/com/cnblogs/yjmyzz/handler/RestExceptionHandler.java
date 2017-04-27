@@ -1,4 +1,4 @@
-package com.cnblogs.yjmyzz;
+package com.cnblogs.yjmyzz.handler;
 
 import javax.ws.rs.NotAllowedException;
 import javax.ws.rs.core.Response;
